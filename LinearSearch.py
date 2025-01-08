@@ -1,11 +1,3 @@
-#Teach-ICT Linear or Sequential search
-# Our web page on it is at
-# http://www.teach-ict.com/2016/A_Level_Computing/OCR_H446/2_3_algorithms/algstandards/miniweb/pg2.php
-
-# Define the linear search subroutine
-# this will return a true or false depending on whether
-# the item is in the list provided
-
 def A_Linear_Search (item, thelist):
     # mark the item as not found to start with
     itemfound = False

@@ -1,5 +1,6 @@
-# Bubble Sort
+# Binary Search
 
+# Bubble Sort
 def bubblesort(items, n):
     swapped = True
     while n>0 and swapped == True:

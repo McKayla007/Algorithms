@@ -4,9 +4,9 @@ stack = []
 stacksize = int(input("Enter stack size: "))
 
 while True:
-  option = input("Push or pop?: ")
+  option = input("Push, pop, view or exit?: ")
   option = option.lower()
-    
+  
   if option == "push":
     if len(stack) >= stacksize:
      print("STACK OVERFLOW")
@@ -18,5 +18,7 @@ while True:
       print("STACK UNDERFLOW")
     else:
       stack.pop()
-  
-  print(stack)
+  elif option == "view":
+    print(stack)
+  elif option == "exit":
+    exit()
